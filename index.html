@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inibot</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+               <img src="images/paglogo.png" height="50px" alt="logo">
+            </div>
+            <nav class = "botones_header">
+                <ul>
+                    <li class="tecnologia"><a href="#">Tecnologias</a></li>
+                    <li class="nosotros"><a href="#">Nosotros</a></li>
+                    <li class="clientes"><a href="#">Clientes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="title">
+          <h1>
+           Desarrollo De Software 
+          </h1>
+          
+        </div>
+        <div>
+            <img class="hero-image" src="images/grua.png"  alt="Grua"> 
+        </div>
+     </section>
+     <section class="tecnologias">
+         <div class="container">
+            <h2>Tecnologias</h2>
+           <img src="images/html.png" class="imagen" alt="html">
+           <img src="images/react.png" class="imagen" alt="html">
+           <img src="images/vue.png" class="imagen" alt="html">
+           <img src="images/nest.png" class="imagen" alt="html">
+           <img src="images/arangodb.png" class="imagen" alt="html">
+           <img src="images/mysql.png" class="imagen" alt="html">
+           <img src="images/next.png" class="imagen" alt="html">
+           <img src="images/gatsby.png" class="imagen" alt="html">
+         </div>
+     </section>
+     <section class="nosotros">
+         <h1>Sobre Nosotros</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minus provident iure vel recusandae enim? Delectus recusandae adipisci ea possimus accusantium culpa voluptate veritatis, cumque beatae eligendi odio iure neque?</p>
+         <img class="nosotros-imagen" src="images/image.png" alt="imagen">
+
+     </section>
+     <section>
+        <div class="mensaje">
+            <form action="/api/contacto" method="POST">
+              <h1>Envianos tu mensaje</h1>
+              <input
+                class="nombre" type="text" placeholder="Nombre" id="nombre" name="nombre"/>
+              <input
+                class="e-mail"
+                type="email" placeholder="E-mail" id="e-mail" name="e-mail" />
+              <textarea class="texto" name="mensaje"></textarea>
+              <button class="boton" type="submit" id="BotonEnviar" > ENVIAR
+              </button>
+            </form>
+          </div>
+        </form>
+     </section>
+     <section>
+       <div class="separador"></div>
+       <div class="clientes">
+         <h1>CLIENTES</h1>
+         <img class="imgclientes" src="images/neoyoga.png" alt="neoyoga">
+         <img class="imgclientes" src="images/fran.png" alt="fran">
+         <img class="imgclientes" src="images/tucancha.jpg" alt="tucancha">
+       </div>
+     </section>
+     <footer></footer>     
+</body>
+</html>

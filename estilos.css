@@ -1,0 +1,251 @@
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    justify-content: center;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo p a{
+    color: white;
+    font-size: 40px;
+}
+
+.botones_header{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align:right;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    color: #084c94;
+    display: inline;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #084c94;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+nav ul li a{
+    color:#084c94;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+nav ul li a:hover{
+    color:#D1EBFF;
+}
+
+body{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+}
+
+.hero-image{
+    width: 80%;
+    padding-top: 200px;
+    margin: auto;
+    float: right;    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;  
+}
+
+.title h1{
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.hero{    
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    display: flex;
+    float:inherit;
+    margin: 0 0;
+}
+
+
+
+.tecnologias .container{
+    background: #D1EBFF;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;    
+}
+
+h2{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+  
+}
+
+.imagen{
+    width: 80px;
+    margin: 0 0;
+    padding: 45px 45px;
+}
+
+.nosotros{
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.nosotros h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.nosotros-imagen{
+    height: 130%;
+    width: 50%;
+    
+    
+}
+
+.nosotros p{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.mensaje {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 150%;
+    
+}
+
+.mensaje form {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #084c94;
+}
+.mensaje form h1 {
+    color: #084c94;
+    font-size: 30px;
+    text-align: center;
+}
+  
+.nombre {
+    width: 85%;
+    height: 20%;
+    margin-top: 20px;
+    border: solid #084c94 5px;
+    color: #084c94;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+  
+  
+.e-mail {
+    width: 85%;
+    height: 20%;
+    margin-top: 15px;
+    border: solid #084c94 5px;
+    color: #084c94;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+ }
+
+.texto {
+    width: 85%;
+    height: 24%;
+    margin-top: 15px;
+    font-weight: bold;
+    border: solid #084c94 5px;
+    color: #084c94;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+    
+.boton {
+    width: 30%;
+    height: 8%;
+    margin-top: 20px;
+    background:white;
+    border: solid #084c94 5px;
+    color:#084c94;
+    font-weight: bold;
+}
+  
+.boton:hover {
+    background: #d1ebff;  
+}
+  
+.separador{
+    width: 200px;
+    height: 400px;
+}
+.clientes{
+    background:#d1ebff;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.clientes h1{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.imgclientes{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+footer{
+    height: 100px;
+    background-color: #084c94;
+}
